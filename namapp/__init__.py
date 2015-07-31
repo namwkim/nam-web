@@ -4,7 +4,7 @@ from werkzeug import secure_filename
 
 app = Flask(__name__, static_url_path='')
 app.config.from_object('config')
-app.config.from_pyfile('config.py')
+#app.config.from_pyfile('config.py')
 
 @app.route('/')
 def index():
