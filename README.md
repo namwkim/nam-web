@@ -4,7 +4,7 @@ Nam's Website Boilerplate using SemanticUI, Angularjs, and FlaskServer.
 Install
 -------
 - Dependencies : node, npm, grunt, bower, python, pip
-  * This app builds on flask-python-server, angularjs, paperjs
+  * This app builds on flask-python-server, angularjs
 - Run following commands.
 ```
 pip install -r requirements.txt
@@ -12,7 +12,7 @@ npm install
 grunt build
 grunt run
 ```
-- Go to: localhost:6353.
+- Go to: localhost:3000.
 - Optional, but recommended way. see: [https://goo.gl/EaCMLJ])
 ```
 pip install virtualenv
