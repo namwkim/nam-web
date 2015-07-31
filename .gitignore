@@ -28,8 +28,8 @@ node_modules
 
 .DS_Store
 node_modules/
-hyecoo/static/bower_components/
-hyecoo/static/js/ng/dist/
+namapp/static/bower_components/
+namapp/static/js/ng/dist/
 instance/
 *.out
 *.log

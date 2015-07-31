@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, request, jsonify, logging
 from werkzeug import secure_filename
 
-app = Flask(__name__, instance_relative_config=True, static_url_path='')
+app = Flask(__name__, static_url_path='')
 app.config.from_object('config')
 app.config.from_pyfile('config.py')
 
