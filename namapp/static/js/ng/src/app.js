@@ -1,6 +1,6 @@
 
 
-var namapp = angular.module('namApp', [], function() {
+var namapp = angular.module('namApp', [], function($interpolateProvider) {
 		$interpolateProvider.startSymbol('<%');
 		$interpolateProvider.endSymbol('%>');
 	})
